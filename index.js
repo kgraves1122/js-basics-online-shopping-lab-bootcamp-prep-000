@@ -67,7 +67,31 @@ function removeFromCart(item) {
 }
   
   
+<<<<<<< HEAD
 
+=======
+  
+  /*while ( i < cart.length) {
+    if (item === cart[i].itemName) {
+      cart.splice(i,1);
+      return cart;
+    } else if (i + 1 === cart.length && item !== cart[i]) {
+      return "That item is not in your cart.";
+    } else {
+      ++i;
+    }
+  }
+}*/
+ /* for (var i = 0; i < cart.length; i++) {
+    if (item === cart[i].itemName) {
+      cart.splice(i, 1);
+      return cart;
+    } else if ( i + 1 === cart.length && item !== cart[i].itemName) {
+      return "That item is not in your cart."
+    } else {}
+  }
+}*/
+>>>>>>> 3b031f5c37734d6a5af5a5f03f5b2828f0e1d429
 
 function placeOrder(cardNumber) {
 
